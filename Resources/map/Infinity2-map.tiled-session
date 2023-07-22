@@ -1,0 +1,50 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "level1.tmx",
+    "automapping.whileDrawing": true,
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "全部文件 (*)",
+    "fileStates": {
+        "board1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level1.tmx": {
+            "scale": 0.42809375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1002.1169428425433,
+                "y": 877.1443171034382
+            }
+        }
+    },
+    "last.externalTilesetPath": "F:/cocos2d-x/Infinity2/Infinity2/Resources/map",
+    "last.imagePath": "F:/cocos2d-x/Infinity2/Infinity2/Resources/Infinity-main/Infinity/res/image",
+    "map.fixedSize": true,
+    "map.height": 40,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 40,
+    "map.tileWidth": 40,
+    "map.width": 50,
+    "openFiles": [
+        "board1.tsx",
+        "level1.tmx"
+    ],
+    "project": "Infinity2-map.tiled-project",
+    "recentFiles": [
+        "board1.tsx",
+        "level1.tmx"
+    ],
+    "tileset.lastUsedFilter": "Tiled 图块集文件 (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.margin": 0,
+    "tileset.tileSize": {
+        "height": 40,
+        "width": 40
+    }
+}
