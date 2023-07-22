@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene">
+      <UniqueIdentifier>{247a416e-07a8-4c46-b16d-f0db5e4a138a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Director">
+      <UniqueIdentifier>{a0a29684-4a69-4b2c-8a2c-98af97ab2de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sprite">
+      <UniqueIdentifier>{276827d6-2f1a-4681-b67a-0c958f022ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sprite\Tank">
+      <UniqueIdentifier>{70cab11a-0644-4e75-a1a7-33927d9fc7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sprite\Bullet">
+      <UniqueIdentifier>{7736b78a-3aaf-42c5-b710-9da1d22ec530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header">
+      <UniqueIdentifier>{0f2a92f7-6c3d-4c6e-b351-3ad82acdbfba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Director\AppDelegate.cpp">
+      <Filter>src\Director</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\InitScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\StartScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\NullScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\HallScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Tank\PlTank.cpp">
+      <Filter>src\Sprite\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Bullet\PlBullet.cpp">
+      <Filter>src\Sprite\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GameScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Tank\Enemy.cpp">
+      <Filter>src\Sprite\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Bullet\EnemyBullet.cpp">
+      <Filter>src\Sprite\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\CourseScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SettingScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Director\AppDelegate.h">
+      <Filter>src\Director</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\InitScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\StartScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\NullScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\HallScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Tank\PlTank.h">
+      <Filter>src\Sprite\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Bullet\PlBullet.h">
+      <Filter>src\Sprite\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GameScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Tank\Enemy.h">
+      <Filter>src\Sprite\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Bullet\EnemyBullet.h">
+      <Filter>src\Sprite\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Header\Tag.h">
+      <Filter>src\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\CourseScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SettingScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
